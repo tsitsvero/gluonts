@@ -11,7 +11,7 @@
 # express or implied. See the License for the specific language governing
 # permissions and limitations under the License.
 
-import lightning.pytorch as pl
+import pytorch_lightning as pl
 
 
 def has_validation_loop(trainer: pl.Trainer):
