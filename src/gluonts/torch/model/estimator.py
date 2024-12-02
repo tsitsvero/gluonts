@@ -15,7 +15,8 @@ from typing import NamedTuple, Optional, Iterable, Dict, Any
 import logging
 
 import numpy as np
-import lightning.pytorch as pl
+# import lightning.pytorch as pl
+import pytorch_lightning as pl
 import torch.nn as nn
 
 from gluonts.core.component import validated
